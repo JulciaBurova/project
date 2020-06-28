@@ -2,6 +2,39 @@
     box-sizing: border-box;
 }
 
+
+aside {
+	width: 30%;
+	padding: 20px;
+	background-color:white;
+	border-left: 1px solid #e1e1e1;
+}
+
+.widget {
+    margin-bottom: 40px;
+    width: 1150%;
+}
+
+.widget:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.widget img {
+	float: left;
+	margin: 0 12px 5px 0;
+}
+
+.widget ul {
+	list-style-type: square;
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+.widget li {
+	margin-bottom: 15px;
+}
 .form {
     margin:3rem auto;
     font-family:sans-serif;
@@ -66,7 +99,6 @@ h1{
     transition: 0.3s background-color;
 }
 
-/* checkbox */
 .form .submit-btn:hover {
     background: #7EC927;
 }
